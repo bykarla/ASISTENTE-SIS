@@ -1,0 +1,1242 @@
+[
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Inscripciones",
+    "pregunta_patron": "¿Cuándo empiezan las inscripciones para nuevo ingreso?",
+    "palabras_clave": ["fechas", "inscripción", "nuevo ingreso", "cronograma"],
+    "respuesta": "¡Hola! Las inscripciones para el nuevo período académico están programadas desde el [Fecha de inicio] hasta el [Fecha de fin]. Todo el proceso se realizará a través de este portal en la sección 'Nuevo Ingreso'.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Documentación",
+    "pregunta_patron": "¿Cuáles son los requisitos y documentos para inscribirse?",
+    "palabras_clave": ["requisitos", "documentos", "carpeta marrón", "título", "opsu"],
+    "respuesta": "Para formalizar tu inscripción debes traer en una carpeta marrón tamaño oficio: Planilla OPSU o Censo Interno, Cédula laminada y copia, Título de Bachiller (original y fondo negro), Notas certificadas, Partida de nacimiento y 2 fotos carnet.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Censo",
+    "pregunta_patron": "¿Cómo es el proceso si no salí asignado por la OPSU (Censo interno)?",
+    "palabras_clave": ["opsu", "censo", "no asignado", "cupo"],
+    "respuesta": "Si no fuiste asignado por la OPSU, puedes participar en nuestro Censo Interno. El censo se abrirá el [Fecha de inicio del censo]. Solo debes registrarte en la sección 'Censo Universitario' de este portal.",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Inscripciones",
+    "pregunta_patron": "¿Cuándo empiezan las clases exactamente?",
+    "palabras_clave": ["inicio clases", "fecha", "trayecto inicial"],
+    "respuesta": "El inicio de clases para los nuevos ingresos está pautado para el [Día y fecha de inicio]. Te recomendamos estar atento a la sección de Noticias del portal.",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Administración",
+    "pregunta_patron": "¿La universidad es totalmente gratuita o hay que pagar?",
+    "palabras_clave": ["gratuita", "pagos", "aranceles", "costo"],
+    "respuesta": "La educación es pública y gratuita. Solo se solicita el pago de aranceles administrativos mínimos para trámites de titulación o constancias, y la colaboración para el carnet estudiantil.",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Academia",
+    "pregunta_patron": "¿Hay que hacer Trayecto Inicial / Curso Introductorio?",
+    "palabras_clave": ["piu", "trayecto inicial", "introductorio", "obligatorio"],
+    "respuesta": "Sí, el Programa de Iniciación Universitaria (PIU) o Trayecto Inicial es obligatorio para todos los nuevos ingresos. Dura aproximadamente [Número] semanas y te preparará con las bases necesarias.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Titulación",
+    "pregunta_patron": "¿Dan título de TSU a la mitad de la carrera?",
+    "palabras_clave": ["tsu", "ingeniero", "título", "trayecto 2"],
+    "respuesta": "¡Así es! Al aprobar el Trayecto 2 obtendrás el título de Técnico Superior Universitario (TSU). Al culminar el Trayecto 4, recibirás el título de Ingeniero.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Modalidad",
+    "pregunta_patron": "¿Tienen modalidad online o es 100% presencial?",
+    "palabras_clave": ["online", "presencial", "semipresencial", "virtual"],
+    "respuesta": "Nuestras carreras son de modalidad [Presencial / Semi-presencial]. Algunas materias teóricas cuentan con apoyo virtual, pero laboratorios y evaluaciones son presenciales.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Soporte",
+    "pregunta_patron": "¿Qué pasa si perdí mi contraseña del sistema/OPSU?",
+    "palabras_clave": ["contraseña", "clave", "recuperar", "login"],
+    "respuesta": "Para la clave de la OPSU, recupérala en su web oficial. Para nuestro portal, usa el botón 'Olvidé mi contraseña' en la pantalla de inicio y sigue los pasos.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Pensum",
+    "pregunta_patron": "¿Cuáles son las materias del Trayecto Inicial / Trayecto 1 de Informática?",
+    "palabras_clave": ["materias", "pensum", "informática", "algorítmica"],
+    "respuesta": "En el Trayecto Inicial verás Matemática, Proyecto Nacional e Introducción a la Universidad. En el Trayecto 1 iniciarás con Algorítmica y Programación, Arquitectura del Computador, Matemática e Idiomas.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Horarios",
+    "pregunta_patron": "¿En qué horario son las clases para los nuevos ingresos?",
+    "palabras_clave": ["horarios", "turnos", "mañana", "tarde", "noche"],
+    "respuesta": "Manejamos diferentes turnos dependiendo de la disponibilidad: Mañana, Tarde y Noche. Tu turno será asignado y podrás verlo en tu horario una vez culmines tu inscripción.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Ubicación",
+    "pregunta_patron": "¿Dónde queda la sede principal y cómo llego?",
+    "palabras_clave": ["dirección", "sede", "ubicación", "transporte"],
+    "respuesta": "Nuestra sede principal está ubicada en [Dirección exacta]. Puedes llegar tomando la ruta de transporte público [Ruta 1] o puntos de referencia como [Estación].",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Academia",
+    "pregunta_patron": "¿Necesito saber programar antes de entrar?",
+    "palabras_clave": ["programación", "conocimientos", "informática", "aprender"],
+    "respuesta": "¡Para nada! No necesitas conocimientos previos. En el Trayecto 1 comenzamos desde cero con 'Algorítmica y Lógica de Programación'.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Servicios",
+    "pregunta_patron": "¿Cuáles son las opciones de comedor y transporte?",
+    "palabras_clave": ["comedor", "transporte", "rutas", "beneficios"],
+    "respuesta": "Actualmente la universidad [cuenta / no cuenta] con comedor activo. Tenemos rutas estudiantiles operativas hacia [Zona 1] y [Zona 2]. Horarios en Control de Estudios.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Aspirantes y Nuevo Ingreso",
+    "subcategoria": "Cambio Carrera",
+    "pregunta_patron": "¿Puedo cambiarme de Telecomunicaciones a Informática?",
+    "palabras_clave": ["cambio carrera", "pnf", "transferencia", "cupo"],
+    "respuesta": "Los cambios de PNF son posibles sujetos a disponibilidad y rendimiento. Debes cursar al menos un trayecto completo y solicitarlo en Control de Estudios.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Inscripciones",
+    "pregunta_patron": "¿Cuándo y cómo inscribo el nuevo trayecto?",
+    "palabras_clave": ["inscripción regular", "trayecto", "semestre", "proceso"],
+    "respuesta": "¡Hola! Las inscripciones regulares son del [Fecha inicio] al [Fecha fin]. Ingresa con tu usuario, ve a 'Inscripción Regular' y selecciona tus unidades curriculares.",
+    "acceso_publico": false,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Graduación",
+    "pregunta_patron": "¿Qué requisitos necesito para el grado?",
+    "palabras_clave": ["grado", "título", "requisitos", "solvencias"],
+    "respuesta": "Aprobación del 100% de materias, Proyecto, Servicio Comunitario, Pasantías, solvencias y pago de aranceles de grado.",
+    "acceso_publico": false,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Documentos",
+    "pregunta_patron": "¿Cómo descargo mi constancia de estudio?",
+    "palabras_clave": ["constancia", "pdf", "qr", "descargar"],
+    "respuesta": "Descárgala en el portal: 'Documentos' > 'Constancia de Estudio'. Generará un PDF con QR. Para sello húmedo, llévala impresa a Control de Estudios.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Proyecto",
+    "pregunta_patron": "¿Cuáles son los lineamientos para el Proyecto?",
+    "palabras_clave": ["proyecto", "pst", "socio-tecnológico", "manual"],
+    "respuesta": "El Proyecto es el eje del PNF. Grupos de [Mín] a [Máx] personas. Descarga el Manual actualizado en la 'Biblioteca Virtual' del portal.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Horarios",
+    "pregunta_patron": "¿Dónde veo mi horario y aula?",
+    "palabras_clave": ["horario", "aula", "sección", "perfil"],
+    "respuesta": "Está disponible en tu perfil. Ve a 'Mi Horario' para ver días, horas, materias y número de aula o laboratorio asignado.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Puedo congelar el semestre o retirar materia?",
+    "palabras_clave": ["congelar", "retirar", "modificación", "plazo"],
+    "respuesta": "Es permitido durante las primeras [Número] semanas de clases. Entrega la planilla de 'Modificación/Retiro' presencialmente en Control de Estudios.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Notas",
+    "pregunta_patron": "¿Cuáles son los pasos para notas certificadas?",
+    "palabras_clave": ["notas", "certificadas", "arancel", "trámite"],
+    "respuesta": "Paga el arancel de [Monto] y lleva el comprobante a Control de Estudios. Se entregan firmadas y selladas en [Número] días hábiles.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Servicio Comunitario",
+    "pregunta_patron": "¿Cuándo puedo empezar el Servicio Comunitario?",
+    "palabras_clave": ["servicio comunitario", "ley", "horas", "requisito"],
+    "respuesta": "Debes haber aprobado el [Porcentaje]% de unidades de crédito. Generalmente al cursar el [Trayecto X]. Atento a las charlas de inducción en Noticias.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Evaluación",
+    "pregunta_patron": "¿Qué pasa si repruebo? ¿Hay reparación?",
+    "palabras_clave": ["reprobado", "reparación", "recuperación", "nota mínima"],
+    "respuesta": "La evaluación es continua. Si no alcanzas [Nota mínima], tienes derecho a un Plan de Recuperación al final del trayecto según el reglamento.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Pasantías",
+    "pregunta_patron": "¿Cuándo me tocan las pasantías?",
+    "palabras_clave": ["pasantías", "prácticas", "empresa", "trayecto 4"],
+    "respuesta": "Corresponden al [Trayecto 4]. Debes tener aprobado el Proyecto anterior y la carta de postulación de la Coordinación.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Soporte",
+    "pregunta_patron": "Inscribí una materia pero no aparece",
+    "palabras_clave": ["error inscripción", "carga académica", "reclamo"],
+    "respuesta": "Repórtalo de inmediato a Control de Estudios con tu comprobante. Tienes hasta el [Fecha límite] para el reclamo.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Cómo cambio de sección o turno?",
+    "palabras_clave": ["cambio sección", "cambio turno", "trabajo", "salud"],
+    "respuesta": "Se procesan en la semana de 'Inclusiones' por motivos laborales o de salud comprobables, sujeto a disponibilidad de cupos.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Solvencias",
+    "pregunta_patron": "¿Cómo saco solvencia de biblioteca?",
+    "palabras_clave": ["solvencia", "biblioteca", "administración", "sello"],
+    "respuesta": "Es presencial. Verifica en Biblioteca que no debes libros y en Administración que no tienes deudas. Te firmarán el formato de solvencia.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Servicios",
+    "pregunta_patron": "¿Cómo renuevo mi carnet estudiantil?",
+    "palabras_clave": ["carnet", "renovación", "pérdida", "robo"],
+    "respuesta": "Presenta en taquilla: constancia de estudio, denuncia (si aplica) y comprobante de pago por el arancel de reposición.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes Regulares",
+    "subcategoria": "Academia",
+    "pregunta_patron": "¿Puedo adelantar materias?",
+    "palabras_clave": ["adelantar", "prelaciones", "unidades crédito"],
+    "respuesta": "Depende de las prelaciones. No puedes cursar una materia si no aprobaste su pre-requisito (ej. Programación I antes que la II).",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Asistente",
+    "pregunta_patron": "El bot no entiende mi pregunta",
+    "palabras_clave": ["ayuda", "humano", "error bot", "control estudios"],
+    "respuesta": "Estoy en entrenamiento. Si tu caso es muy específico, dirígete presencialmente a Control de Estudios de lunes a viernes.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Virtual",
+    "pregunta_patron": "¿Cómo ingreso al Aula Virtual?",
+    "palabras_clave": ["aula virtual", "moodle", "usuario", "clave"],
+    "respuesta": "Ve a 'Campus Virtual'. Tu usuario es tu cédula sin puntos. La contraseña inicial es [Clave inicial]. ¡Cámbiala al entrar!",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Soporte Técnico",
+    "pregunta_patron": "El Aula Virtual me da error",
+    "palabras_clave": ["error", "soporte", "acceso", "captura"],
+    "respuesta": "Borra caché. Si persiste, envía correo a [Email Soporte] con tu nombre, cédula, PNF y captura del error.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Evaluación",
+    "pregunta_patron": "¿Cuál es la escala de notas?",
+    "palabras_clave": ["escala", "notas", "promedio", "aprobado"],
+    "respuesta": "La escala es del 1 al 20. La nota mínima aprobatoria para el PNF es de [12 o 16] puntos según el reglamento.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Proyecto",
+    "pregunta_patron": "¿Cuál son las defensas de Proyecto?",
+    "palabras_clave": ["defensas", "exposición", "proyecto", "jurado"],
+    "respuesta": "Se programan para las últimas [Número] semanas. El cronograma con jurados se publica en cartelera virtual.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Soporte",
+    "pregunta_patron": "El sistema se colgó en la inscripción",
+    "palabras_clave": ["sistema caído", "error", "inscripción", "espera"],
+    "respuesta": "Espera 15 min e intenta de nuevo. Si persiste y tu turno pasó, acude a Control de Estudios con captura del error.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Reglamento",
+    "pregunta_patron": "¿Con cuántas inasistencias repruebo?",
+    "palabras_clave": ["inasistencias", "faltas", "asistencia", "pérdida"],
+    "respuesta": "Pierdes la materia si faltas al [25%] o más de las clases sin justificación médica avalada.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Justificativo",
+    "pregunta_patron": "Falté a evaluación por enfermedad",
+    "palabras_clave": ["enfermedad", "justificativo", "médico", "evaluación"],
+    "respuesta": "Tienes [3 a 5] días hábiles para presentar justificativo médico original ante la Coordinación o el profesor.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Bienestar",
+    "pregunta_patron": "¿Hay becas o ayudantías?",
+    "palabras_clave": ["becas", "ayudantía", "beneficio", "postulación"],
+    "respuesta": "Sí, tenemos programas de Beca Ayudantía. Postulaciones una vez al año. Requiere índice mayor a [Nota] y ser regular.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Cocurriculares",
+    "pregunta_patron": "¿Es obligatorio deporte o cultura?",
+    "palabras_clave": ["deporte", "cultura", "obligatorio", "cocurricular"],
+    "respuesta": "Sí, son obligatorias. Debes aprobar al menos [Número] créditos antes del Trayecto 3.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Equivalencias",
+    "pregunta_patron": "¿Cómo solicito equivalencias?",
+    "palabras_clave": ["equivalencias", "traslado", "notas originales", "pensum"],
+    "respuesta": "Se solicita en Control de Estudios en [Meses]. Trae notas certificadas, pensum sellado y programas sinópticos originales.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Récord",
+    "pregunta_patron": "¿Cómo calculo mi promedio?",
+    "palabras_clave": ["promedio", "índice", "unidades crédito", "cálculo"],
+    "respuesta": "Se multiplica cada nota por sus UC y se divide entre el total de UC. El sistema lo hace en 'Récord Académico'.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Reingreso",
+    "pregunta_patron": "Dejé de estudiar, ¿cómo hago reingreso?",
+    "palabras_clave": ["reingreso", "retomar", "trámite", "habilitar"],
+    "respuesta": "Solicítalo [1 o 2] meses antes del nuevo trayecto. Paga el arancel y entrega planilla en Control de Estudios.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Correo",
+    "pregunta_patron": "¿Cómo solicito correo institucional?",
+    "palabras_clave": ["correo institucional", "uneti", "activar", "estudiante"],
+    "respuesta": "Se genera automáticamente. Conócelo en 'Mi Perfil'. Para problemas de acceso, ve a Dirección de Tecnología.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Perfil",
+    "pregunta_patron": "Cambié de teléfono o correo",
+    "palabras_clave": ["actualizar datos", "perfil", "teléfono", "seguridad"],
+    "respuesta": "Actualízalos en 'Ajustes de Cuenta' > 'Actualizar Datos'. Para cambios de nombre o cédula, ve presencialmente.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Biblioteca",
+    "pregunta_patron": "¿Cómo pido libros prestados?",
+    "palabras_clave": ["libros", "biblioteca", "préstamo", "carnet"],
+    "respuesta": "Presenta constancia vigente y carnet en el mostrador. Tienes derecho a [Número] libros por [Número] días.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Quejas",
+    "pregunta_patron": "El profesor no ha ido a dar clases",
+    "palabras_clave": ["profesor", "ausencia", "notificación", "vocero"],
+    "respuesta": "El vocero debe notificarlo por escrito a la Coordinación del PNF para tomar las medidas académicas correspondientes.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Representación",
+    "pregunta_patron": "¿Dónde queda el Centro de Estudiantes?",
+    "palabras_clave": ["centro estudiantes", "voceros", "oficina", "delegado"],
+    "respuesta": "Ubicado en [Ubicación física]. También puedes contactarlos por sus redes sociales oficiales.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Directorio",
+    "pregunta_patron": "¿Cómo contacto a un profesor?",
+    "palabras_clave": ["contacto", "profesor", "correo", "sala profesores"],
+    "respuesta": "Usa la mensajería del Aula Virtual o deja una comunicación formal en la Sala de Profesores en [Ubicación].",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte y Academia",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Cambio de sección a mitad de semestre?",
+    "palabras_clave": ["cambio sección", "mitad semestre", "imposible"],
+    "respuesta": "No están permitidos. Todo cambio debe hacerse en la semana de modificaciones al inicio del trayecto.",
+    "acceso_publico": true,
+    "prioridad": 4,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad y Acceso",
+    "subcategoria": "Cuentas",
+    "pregunta_patron": "¿Por qué mi cuenta aparece como BLOQUEADA?",
+    "palabras_clave": ["bloqueo", "cuenta bloqueada", "intentos fallidos", "acceso"],
+    "respuesta": "Tu cuenta puede bloquearse tras varios intentos fallidos de inicio de sesión por seguridad. Debes esperar 30 minutos o solicitar el desbloqueo en la Dirección de Tecnología.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad y Acceso",
+    "subcategoria": "Sesión",
+    "pregunta_patron": "¿Puedo tener mi sesión abierta en varios dispositivos?",
+    "palabras_clave": ["sesión", "dispositivos", "simultáneo", "login"],
+    "respuesta": "Por seguridad, el sistema recomienda cerrar sesión en dispositivos públicos. El esquema de auditoría registra cada IP y dispositivo desde el cual accedes.",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad y Acceso",
+    "subcategoria": "Contraseña",
+    "pregunta_patron": "¿Cada cuánto debo cambiar mi contraseña?",
+    "palabras_clave": ["cambio", "clave", "seguridad", "tiempo"],
+    "respuesta": "El sistema sugiere cambiar tu contraseña cada 90 días para mantener la seguridad de tu récord académico.",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad y Acceso",
+    "subcategoria": "Integridad",
+    "pregunta_patron": "¿Qué es el Hash de Integridad en mi perfil?",
+    "palabras_clave": ["hash", "seguridad", "datos", "integridad", "validación"],
+    "respuesta": "Es un código único que garantiza que tus datos no han sido alterados. Si el sistema detecta una inconsistencia, notificará automáticamente a auditoría.",
+    "acceso_publico": false,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad y Acceso",
+    "subcategoria": "Permisos",
+    "pregunta_patron": "¿Por qué no puedo ver el módulo de Finanzas?",
+    "palabras_clave": ["permisos", "módulo", "no aparece", "acceso"],
+    "respuesta": "Tu acceso a los módulos depende de tu rol (Estudiante, Docente, Administrativo). Si crees que hay un error, contacta a Soporte.",
+    "acceso_publico": false,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Materias",
+    "pregunta_patron": "¿Qué es una materia con prelación estricta?",
+    "palabras_clave": ["prelación", "estricta", "requisito", "materias"],
+    "respuesta": "Significa que no puedes inscribir la materia siguiente si no has aprobado la anterior. El sistema bloquea automáticamente la inscripción si no cumples el requisito.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Secciones",
+    "pregunta_patron": "¿Qué pasa si una sección está LLENA?",
+    "palabras_clave": ["cupos", "sección llena", "capacidad", "inscripción"],
+    "respuesta": "Cada sección tiene un cupo máximo. Si está llena, deberás buscar otra sección disponible o solicitar un cupo adicional en la coordinación.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "PNF",
+    "pregunta_patron": "¿Qué significan las siglas PNF?",
+    "palabras_clave": ["pnf", "significado", "programa nacional", "formación"],
+    "respuesta": "PNF significa Programa Nacional de Formación. Es el modelo académico que rige nuestras carreras, enfocado en la solución de problemas socio-tecnológicos.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Trayectos",
+    "pregunta_patron": "¿Cuánto dura un Trayecto académico?",
+    "palabras_clave": ["duración", "trayecto", "año", "tiempo"],
+    "respuesta": "Cada trayecto tiene una duración aproximada de un año académico, dividido en trimestres o fases según el diseño curricular del PNF.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Materias",
+    "pregunta_patron": "¿Existen materias que se pueden cursar en paralelo?",
+    "palabras_clave": ["paralelo", "materias", "inscripción", "simultáneo"],
+    "respuesta": "Sí, existen materias bajo la modalidad de 'Prelación en Paralelo' que permiten cursar el requisito y la materia siguiente en el mismo trayecto.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Secciones",
+    "pregunta_patron": "¿Por qué mi sección dice estado PLANIFICADA?",
+    "palabras_clave": ["planificada", "sección", "estado", "inscripción"],
+    "respuesta": "El estado 'Planificada' indica que la sección se está organizando. Solo podrás inscribirte cuando el estado cambie a 'Abierta'.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Materias",
+    "pregunta_patron": "¿Qué son las Unidades de Crédito (UC)?",
+    "palabras_clave": ["uc", "créditos", "peso", "valor"],
+    "respuesta": "Es el valor numérico que indica la carga horaria y complejidad de una materia. Influyen directamente en el cálculo de tu índice académico.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Pasantías",
+    "pregunta_patron": "¿El sistema me asigna la empresa para pasantías?",
+    "palabras_clave": ["empresa", "pasantías", "asignación", "trabajo"],
+    "respuesta": "Puedes proponer una empresa o elegir una de las alianzas disponibles en el módulo de pasantías del sistema.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Períodos",
+    "pregunta_patron": "¿Qué es un período académico intensivo?",
+    "palabras_clave": ["intensivo", "verano", "adelantar", "corto"],
+    "respuesta": "Es un período corto opcional que permite nivelar o adelantar materias específicas fuera del calendario regular.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Inscripción",
+    "pregunta_patron": "¿Qué es una materia electiva?",
+    "palabras_clave": ["electiva", "opcional", "especialización", "materia"],
+    "respuesta": "Es una unidad curricular que puedes elegir entre varias opciones para personalizar tu formación según tus intereses.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Equivalencias",
+    "pregunta_patron": "¿Qué es una equivalencia externa?",
+    "palabras_clave": ["equivalencia", "externa", "otra universidad", "convalidar"],
+    "respuesta": "Es el proceso de validar materias aprobadas en otra institución de educación superior para que sean reconocidas en tu PNF actual.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Evaluación",
+    "pregunta_patron": "¿Existe la evaluación por suficiencia?",
+    "palabras_clave": ["suficiencia", "examen", "adelantar", "conocimiento"],
+    "respuesta": "Sí, si dominas una materia, puedes solicitar un examen de suficiencia según el calendario académico y previo pago de arancel.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Academia",
+    "subcategoria": "Notas",
+    "pregunta_patron": "¿Qué significa que mi nota esté en estado MIGRADA?",
+    "palabras_clave": ["migrada", "notas", "historial", "antiguo"],
+    "respuesta": "Indica que la nota proviene de un sistema anterior o un registro histórico que fue cargado masivamente al SIS-UNETI.",
+    "acceso_publico": false,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes",
+    "subcategoria": "Perfil",
+    "pregunta_patron": "¿Cómo sé cuál es mi índice académico acumulado?",
+    "palabras_clave": ["índice", "promedio", "iaa", "notas"],
+    "respuesta": "Puedes consultarlo en tu perfil de estudiante. Se calcula promediando todas las notas finales según sus unidades de crédito.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes",
+    "subcategoria": "Datos",
+    "pregunta_patron": "¿Por qué no puedo cambiar mi número de cédula?",
+    "palabras_clave": ["cédula", "cambiar", "error", "identidad"],
+    "respuesta": "La cédula es el identificador único (Primary Key). Cualquier corrección requiere validación presencial con documentos originales en Secretaría.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes",
+    "subcategoria": "Inscripción",
+    "pregunta_patron": "¿Puedo inscribir materias de distintos turnos?",
+    "palabras_clave": ["turnos", "mixto", "horario", "sección"],
+    "respuesta": "El sistema permite inscribir en diferentes turnos siempre y cuando no existan choques de horario entre las secciones seleccionadas.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes",
+    "subcategoria": "Estatus",
+    "pregunta_patron": "¿Qué significa ser un estudiante REGULAR?",
+    "palabras_clave": ["regular", "estatus", "condición", "estudiante"],
+    "respuesta": "Un estudiante regular es aquel que está inscrito formalmente en el trayecto actual y cumple con la carga académica mínima.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Estudiantes",
+    "subcategoria": "Egreso",
+    "pregunta_patron": "¿Qué pasa si pierdo el acto de grado?",
+    "palabras_clave": ["acto de grado", "perder", "título", "secretaría"],
+    "respuesta": "Deberás solicitar la entrega de título por Secretaría en las fechas programadas para 'Entregas por Taquilla'.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Docentes",
+    "subcategoria": "Asignación",
+    "pregunta_patron": "¿Cómo sé quién es mi profesor de sección?",
+    "palabras_clave": ["profesor", "docente", "quien da clase", "guía"],
+    "respuesta": "En tu horario de clases aparece el nombre del docente asignado a cada unidad curricular.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Docentes",
+    "subcategoria": "Carga Horaria",
+    "pregunta_patron": "¿Qué es la dedicación docente?",
+    "palabras_clave": ["dedicación", "tiempo completo", "convencional", "horas"],
+    "respuesta": "Es el tipo de contrato del docente (Tiempo Completo, Medio Tiempo o Convencional), lo cual limita la cantidad de horas que puede dictar.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Certificaciones",
+    "pregunta_patron": "¿Qué es el código QR de mis documentos?",
+    "palabras_clave": ["qr", "validación", "verificar", "autenticidad"],
+    "respuesta": "Es un mecanismo de seguridad que permite a cualquier institución verificar que tu documento es original y emitido por el SIS-UNETI.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Egresados",
+    "pregunta_patron": "¿Qué es la revisión de expediente para grado?",
+    "palabras_clave": ["revisión", "grado", "egresado", "expediente"],
+    "respuesta": "Es un proceso donde Secretaría valida que tengas todas tus unidades curriculares aprobadas y documentos al día para poder graduarte.",
+    "acceso_publico": false,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Expediente",
+    "pregunta_patron": "¿Cómo sé si mi expediente digital está completo?",
+    "palabras_clave": ["expediente", "documentos", "revisión", "auditoría"],
+    "respuesta": "En la sección de 'Documentos', el sistema marcará con un check verde los requisitos validados por Secretaría.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Expediente",
+    "pregunta_patron": "¿Cómo subo mi foto para el carnet?",
+    "palabras_clave": ["foto", "carnet", "perfil", "subir"],
+    "respuesta": "En 'Mi Perfil', selecciona 'Actualizar Foto'. Debe ser de frente, fondo blanco y tipo carnet para ser aprobada.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Documentos",
+    "pregunta_patron": "¿Cómo solicito una Certificación de Título?",
+    "palabras_clave": ["certificación", "título", "egresado", "copia"],
+    "respuesta": "Este trámite es para egresados. Se solicita en el portal de Secretaría y requiere el pago del arancel correspondiente.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Cuánto tardan en aprobar una solicitud de documentos?",
+    "palabras_clave": ["tiempo", "espera", "trámite", "aprobación"],
+    "respuesta": "Cada trámite tiene un tiempo máximo de respuesta (días hábiles) definido en el sistema. Puedes ver el cronómetro en tu solicitud.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Actas",
+    "pregunta_patron": "¿Qué es un Acta de Notas?",
+    "palabras_clave": ["acta", "notas", "oficial", "cierre"],
+    "respuesta": "Es el documento legal donde el docente asienta las notas finales. Una vez firmada digitalmente, las notas no pueden ser modificadas sin un proceso de auditoría.",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Secretaría",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Puedo cancelar una solicitud de trámite?",
+    "palabras_clave": ["cancelar", "anular", "trámite", "solicitud"],
+    "respuesta": "Solo puedes cancelarla si aún está en estado 'Pendiente'. Una vez que Secretaría comienza la 'Revisión', no se puede anular.",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas",
+    "subcategoria": "Pagos",
+    "pregunta_patron": "¿Cómo registro un pago en el sistema?",
+    "palabras_clave": ["registrar pago", "transferencia", "pago móvil", "comprobante"],
+    "respuesta": "Ve a 'Finanzas' > 'Registrar Pago', ingresa el número de referencia, fecha y adjunta el comprobante digital.",
+    "acceso_publico": false,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas",
+    "subcategoria": "Solvencia",
+    "pregunta_patron": "¿Estar insolvente bloquea mi inscripción?",
+    "palabras_clave": ["insolvente", "deuda", "bloqueo", "inscripción"],
+    "respuesta": "Sí, el sistema valida automáticamente tu estado de cuenta. Debes estar solvente con aranceles previos para poder inscribir un nuevo trayecto.",
+    "acceso_publico": false,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas",
+    "subcategoria": "Aranceles",
+    "pregunta_patron": "¿Qué pasa si mi pago es RECHAZADO?",
+    "palabras_clave": ["rechazado", "pago fallido", "error pago", "conciliación"],
+    "respuesta": "Si los datos no coinciden con el banco, el pago será rechazado. Deberás verificar la referencia y volver a intentarlo o acudir a Caja.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas",
+    "subcategoria": "Aranceles",
+    "pregunta_patron": "¿Dónde veo la lista de precios de aranceles?",
+    "palabras_clave": ["precios", "costos", "aranceles", "tarifas"],
+    "respuesta": "En el módulo de Finanzas existe un catálogo actualizado con los costos de constancias, carnets y otros servicios.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas",
+    "subcategoria": "Pagos",
+    "pregunta_patron": "¿Se puede pagar con divisas o criptomonedas?",
+    "palabras_clave": ["dólares", "bitcoin", "divisas", "moneda"],
+    "respuesta": "Actualmente el sistema solo procesa pagos en Bolívares a través de los canales oficiales. Consulta en Caja por otras modalidades presenciales.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Auditoría",
+    "subcategoria": "Trazabilidad",
+    "pregunta_patron": "¿El sistema guarda mis movimientos?",
+    "palabras_clave": ["auditoría", "logs", "rastreo", "actividad"],
+    "respuesta": "Sí, el esquema de auditoría registra cada creación, modificación o eliminación de datos para garantizar la transparencia del proceso académico.",
+    "acceso_publico": false,
+    "prioridad": 4,
+    "activo": true
+  },
+  {
+    "categoria": "Auditoría",
+    "subcategoria": "Acciones",
+    "pregunta_patron": "¿Quién puede ver mi historial de cambios?",
+    "palabras_clave": ["quien ve", "historial", "cambios", "privacidad"],
+    "respuesta": "Solo los usuarios con rol de 'Auditor' o 'SuperAdministrador' tienen acceso a la traza de modificaciones del sistema.",
+    "acceso_publico": false,
+    "prioridad": 4,
+    "activo": true
+  },
+  {
+    "categoria": "Configuración",
+    "subcategoria": "Mantenimiento",
+    "pregunta_patron": "¿Qué significa sistema en MANTENIMIENTO?",
+    "palabras_clave": ["mantenimiento", "caído", "actualización", "fuera"],
+    "respuesta": "Significa que estamos aplicando mejoras o respaldando la base de datos. Durante este tiempo, el acceso está restringido para evitar pérdida de datos.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Configuración",
+    "subcategoria": "Global",
+    "pregunta_patron": "¿En qué horario está disponible el sistema?",
+    "palabras_clave": ["horario", "mantenimiento", "disponible", "web"],
+    "respuesta": "El sistema está disponible 24/7, excepto durante los periodos de mantenimiento programado que se anuncian en el banner principal.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Configuración",
+    "subcategoria": "Plantillas",
+    "pregunta_patron": "¿Por qué mi constancia sale con un formato distinto?",
+    "palabras_clave": ["formato", "plantilla", "constancia", "diseño"],
+    "respuesta": "El sistema utiliza plantillas dinámicas que se actualizan según los requerimientos del Ministerio. El contenido legal sigue siendo el mismo.",
+    "acceso_publico": false,
+    "prioridad": 4,
+    "activo": true
+  },
+  {
+    "categoria": "Histórico",
+    "subcategoria": "Registros",
+    "pregunta_patron": "¿Puedo ver mis notas de años anteriores?",
+    "palabras_clave": ["historial", "notas viejas", "pasado", "récord"],
+    "respuesta": "Sí, el esquema 'histórico' almacena tu trayectoria completa. Puedes verla en la sección 'Récord Académico Histórico'.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte Técnico",
+    "subcategoria": "Acceso",
+    "pregunta_patron": "¿Cómo recupero mi usuario si olvidé mi correo asociado?",
+    "palabras_clave": ["recuperar usuario", "olvidé correo", "acceso", "login"],
+    "respuesta": "Debes dirigirte presencialmente a la Dirección de Tecnología (DTI) con tu cédula laminada para actualizar el correo de recuperación en el sistema.",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte Técnico",
+    "subcategoria": "Navegación",
+    "pregunta_patron": "¿El sistema funciona en teléfonos móviles?",
+    "palabras_clave": ["móvil", "celular", "app", "navegación"],
+    "respuesta": "Sí, el SIS-UNETI es completamente 'responsive', lo que significa que se adapta a las pantallas de teléfonos y tablets sin necesidad de instalar una app.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte Técnico",
+    "subcategoria": "Errores",
+    "pregunta_patron": "¿Qué hago si la página me muestra el Error 404 o 500?",
+    "palabras_clave": ["error 404", "error 500", "caída", "falla"],
+    "respuesta": "Un Error 404 significa que el enlace está roto; un 500 indica una falla del servidor. Toma captura de pantalla y repórtalo inmediatamente al chat de Soporte.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Biblioteca",
+    "subcategoria": "Préstamos",
+    "pregunta_patron": "¿Qué pasa si me retraso en entregar un libro?",
+    "palabras_clave": ["retraso", "multa", "libro", "sanción"],
+    "respuesta": "El sistema generará automáticamente una multa o suspensión temporal de tus derechos de préstamo. Debes solventarlo directamente en la Biblioteca Central.",
+    "acceso_publico": false,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Biblioteca",
+    "subcategoria": "Recursos",
+    "pregunta_patron": "¿Existe una biblioteca virtual para descargar PDFs?",
+    "palabras_clave": ["biblioteca virtual", "pdf", "descargar", "libros digitales"],
+    "respuesta": "Sí, en el menú lateral encontrarás el módulo 'Biblioteca Digital' con repositorios institucionales, manuales de proyecto y material de apoyo libre.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Biblioteca",
+    "subcategoria": "Instalaciones",
+    "pregunta_patron": "¿Puedo reservar un cubículo de estudio?",
+    "palabras_clave": ["cubículos", "reserva", "estudiar", "espacio"],
+    "respuesta": "Los cubículos se reservan presencialmente en el mostrador de Biblioteca para grupos de mínimo 3 personas, por un máximo de 2 horas continuas.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Deporte y Cultura",
+    "subcategoria": "Inscripciones",
+    "pregunta_patron": "¿Cuándo y dónde me inscribo en las agrupaciones deportivas?",
+    "palabras_clave": ["deportes", "inscripción", "entrenamientos", "selección"],
+    "respuesta": "Las inscripciones se realizan la segunda semana de clases en la Coordinación de Deportes. Debes presentar tu horario y certificado médico vigente.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Deporte y Cultura",
+    "subcategoria": "Reconocimiento",
+    "pregunta_patron": "¿Pertenecer a una selección me exonera de las horas cocurriculares?",
+    "palabras_clave": ["selección", "exonerar", "horas cocurriculares", "cultura"],
+    "respuesta": "Sí, los estudiantes activos en selecciones deportivas o culturales representativas obtienen automáticamente la aprobación de la unidad curricular correspondiente.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Servicio Comunitario",
+    "subcategoria": "Proyectos",
+    "pregunta_patron": "¿Puedo hacer el servicio comunitario en mi lugar de trabajo?",
+    "palabras_clave": ["trabajo", "servicio comunitario", "comunidad", "validez"],
+    "respuesta": "Sí, siempre y cuando el proyecto esté orientado a solventar una necesidad social (sin fines de lucro) y sea aprobado previamente por el tutor asignado.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Servicio Comunitario",
+    "subcategoria": "Aprobación",
+    "pregunta_patron": "¿Qué necesito para que me aprueben las 120 horas?",
+    "palabras_clave": ["120 horas", "aprobación", "informe", "culminación"],
+    "respuesta": "Debes entregar el Informe Final firmado por la comunidad, el diario de campo y realizar la defensa o socialización del proyecto ante la coordinación.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Pasantías",
+    "subcategoria": "Trámites",
+    "pregunta_patron": "¿Cómo solicito la carta de postulación para la empresa?",
+    "palabras_clave": ["carta postulación", "empresa", "pasantías", "solicitud"],
+    "respuesta": "Debes generar la solicitud en el módulo 'Pasantías', ingresando el RIF y Razón Social de la empresa. La carta se generará en PDF con firma digital en 48h.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Pasantías",
+    "subcategoria": "Tutores",
+    "pregunta_patron": "¿Qué diferencia hay entre el tutor académico y el industrial?",
+    "palabras_clave": ["tutor", "académico", "industrial", "diferencia"],
+    "respuesta": "El tutor académico es un profesor de la universidad que guía tu informe; el tutor industrial es un empleado de la empresa que supervisa tus labores diarias.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Docentes",
+    "subcategoria": "Evaluación",
+    "pregunta_patron": "¿Hasta cuándo tiene el profesor para subir las notas al sistema?",
+    "palabras_clave": ["carga de notas", "plazo", "profesor", "tiempo"],
+    "respuesta": "Los docentes disponen de 5 días hábiles después de aplicada una evaluación para registrar las calificaciones en el módulo correspondiente.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Docentes",
+    "subcategoria": "Corrección",
+    "pregunta_patron": "¿Qué pasa si un profesor me carga la nota equivocada en el acta?",
+    "palabras_clave": ["error nota", "corrección", "acta", "equivocación"],
+    "respuesta": "El docente debe solicitar una 'Corrección de Acta' a Control de Estudios justificando el error antes del cierre definitivo del semestre.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Egresados",
+    "subcategoria": "Certificación",
+    "pregunta_patron": "¿Cómo obtengo los programas sinópticos firmados para irme al exterior?",
+    "palabras_clave": ["sinópticos", "programas", "exterior", "apostilla"],
+    "respuesta": "Se solicitan por el módulo de Secretaría como 'Carga Académica Certificada'. Requiere pago de arancel y demora de 15 a 20 días hábiles.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Egresados",
+    "subcategoria": "Fondo Negro",
+    "pregunta_patron": "¿Dónde autentican el fondo negro de mi título?",
+    "palabras_clave": ["fondo negro", "autenticar", "sello", "título"],
+    "respuesta": "Debes llevar el título original y el fondo negro impreso en papel fotográfico a la taquilla de Secretaría en horario de atención al público.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas Avanzado",
+    "subcategoria": "Aranceles",
+    "pregunta_patron": "¿Existe alguna exoneración de pagos para estudiantes de bajos recursos?",
+    "palabras_clave": ["exoneración", "pagos", "gratis", "bajos recursos"],
+    "respuesta": "Sí, a través de la Coordinación de Bienestar Estudiantil (FAMES) se puede solicitar un estudio socioeconómico para la exoneración de aranceles administrativos.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Finanzas Avanzado",
+    "subcategoria": "Reembolsos",
+    "pregunta_patron": "¿Si pagué por error, me devuelven el dinero?",
+    "palabras_clave": ["reembolso", "devolución", "pago error", "dinero"],
+    "respuesta": "No realizamos devoluciones en efectivo ni transferencias. El monto quedará como saldo a favor en tu billetera virtual (Wallet) para futuros trámites.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Transporte y Comedor",
+    "subcategoria": "Rutas",
+    "pregunta_patron": "¿A qué hora sale la ruta de transporte en el turno de la noche?",
+    "palabras_clave": ["hora", "noche", "transporte", "salida"],
+    "respuesta": "La ruta nocturna sale puntualmente a las 9:15 PM desde el estacionamiento principal. Es obligatorio presentar el carnet estudiantil para abordar.",
+    "acceso_publico": true,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Transporte y Comedor",
+    "subcategoria": "Tickets",
+    "pregunta_patron": "¿Cómo compro o reservo el ticket del comedor?",
+    "palabras_clave": ["ticket", "comedor", "reserva", "comida"],
+    "respuesta": "Se reserva a través del módulo 'Bienestar' del sistema, desde las 7:00 AM hasta agotar los cupos diarios. El ticket digital se escanea en la entrada.",
+    "acceso_publico": false,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Normativa y Convivencia",
+    "subcategoria": "Sanciones",
+    "pregunta_patron": "¿Qué sanciones hay por fraude en evaluaciones?",
+    "palabras_clave": ["fraude", "copia", "sanción", "expulsión"],
+    "respuesta": "Según el reglamento, el fraude académico anula la evaluación (Nota 01) y el expediente es remitido al Consejo Disciplinario, pudiendo causar la suspensión temporal.",
+    "acceso_publico": true,
+    "prioridad": 9,
+    "activo": true
+  },
+  {
+    "categoria": "Normativa y Convivencia",
+    "subcategoria": "Vestimenta",
+    "pregunta_patron": "¿Hay código de vestimenta para entrar a la universidad?",
+    "palabras_clave": ["ropa", "vestimenta", "código", "entrar"],
+    "respuesta": "No hay un uniforme exigido, pero se requiere vestimenta decorosa. No se permite el acceso a laboratorios y talleres con shorts o sandalias por normativas de seguridad laboral.",
+    "acceso_publico": true,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Normativa y Convivencia",
+    "subcategoria": "Apelación",
+    "pregunta_patron": "¿Qué hago si no estoy de acuerdo con mi nota definitiva?",
+    "palabras_clave": ["apelación", "reclamo nota", "injusticia", "revisión"],
+    "respuesta": "Tienes 3 días hábiles desde la publicación de la nota para solicitar por escrito una 'Revisión de Evaluación' ante la coordinación académica de tu PNF.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Normativa y Convivencia",
+    "subcategoria": "Elecciones",
+    "pregunta_patron": "¿Cómo puedo postularme para vocero estudiantil de mi sección?",
+    "palabras_clave": ["vocero", "postulación", "elecciones", "delegado"],
+    "respuesta": "La postulación es libre y se realiza de manera democrática dentro del aula durante las dos primeras semanas de inicio del trayecto.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad Física",
+    "subcategoria": "Emergencias",
+    "pregunta_patron": "¿A quién acudo en caso de una emergencia médica en el campus?",
+    "palabras_clave": ["emergencia", "médico", "salud", "accidente"],
+    "respuesta": "Dirígete de inmediato al Servicio Médico de la universidad o notifica al personal de Prevención y Protección (Seguridad Física) que está en las entradas.",
+    "acceso_publico": true,
+    "prioridad": 10,
+    "activo": true
+  },
+  {
+    "categoria": "Seguridad Física",
+    "subcategoria": "Pérdidas",
+    "pregunta_patron": "¿Dónde reporto si perdí mis pertenencias en un salón?",
+    "palabras_clave": ["objetos perdidos", "extravío", "robo", "olvido"],
+    "respuesta": "Todo objeto encontrado es llevado a la oficina de Prevención y Protección (Vigilancia). Puedes acudir con tu carnet para reclamar pertenencias.",
+    "acceso_publico": true,
+    "prioridad": 6,
+    "activo": true
+  },
+  {
+    "categoria": "Módulo Docentes",
+    "subcategoria": "Plan de Evaluación",
+    "pregunta_patron": "¿El plan de evaluación puede ser cambiado por el profesor a mitad de trayecto?",
+    "palabras_clave": ["plan evaluación", "cambio", "profesor", "acuerdo"],
+    "respuesta": "El plan de evaluación es un acuerdo firmado al inicio. Solo puede modificarse con la aprobación y firma del 50%+1 de los estudiantes de la sección.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Módulo Docentes",
+    "subcategoria": "Materiales",
+    "pregunta_patron": "¿Los profesores están obligados a subir las presentaciones a Moodle?",
+    "palabras_clave": ["materiales", "moodle", "presentaciones", "apoyo"],
+    "respuesta": "Sí, el lineamiento académico exige que todo docente coloque el material de apoyo fundamental en el Aula Virtual correspondiente a su asignatura.",
+    "acceso_publico": false,
+    "prioridad": 7,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte Técnico",
+    "subcategoria": "Actualizaciones",
+    "pregunta_patron": "¿Qué hago si el sistema se actualiza y pierdo mis datos guardados?",
+    "palabras_clave": ["actualización", "pérdida datos", "versión", "respaldo"],
+    "respuesta": "El sistema realiza respaldos diarios (Backups). Si notas pérdida de datos tras un mantenimiento, abre un ticket en Soporte indicando exactamente qué información falta.",
+    "acceso_publico": false,
+    "prioridad": 8,
+    "activo": true
+  },
+  {
+    "categoria": "Soporte Técnico",
+    "subcategoria": "Recomendaciones",
+    "pregunta_patron": "¿Cuál navegador es el más recomendado para usar el SIS-UNETI?",
+    "palabras_clave": ["navegador", "recomendado", "chrome", "firefox"],
+    "respuesta": "El sistema está optimizado para las últimas versiones de Google Chrome y Mozilla Firefox. No garantizamos compatibilidad total con Internet Explorer.",
+    "acceso_publico": true,
+    "prioridad": 5,
+    "activo": true
+  }
+]

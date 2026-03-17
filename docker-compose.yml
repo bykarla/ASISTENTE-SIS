@@ -1,0 +1,36 @@
+# ByKP: Orquestación de servicios para desarrollo local
+# Célula 04: Servicios e Innovación - SIS-UNETI 2026
+
+version: '3.8'
+
+services:
+  # ==========================================
+  # 1. Base de Datos Principal (PostgreSQL)
+  # ==========================================
+  postgres_db:
+    image: postgres:16-alpine
+    container_name: uneti_postgres
+    environment:
+      POSTGRES_USER: admin_uneti
+      POSTGRES_PASSWORD: superpassword2026
+      POSTGRES_DB: asistente_virtual
+    ports:
+      - "5433:5432" # Se cambió a 5433 en el host para evitar conflictos
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # ==========================================
+  # 2. Caché y Memoria de Sesiones (Redis)
+  # ==========================================
+  # ByKP: Lo dejamos configurado para cuando implementemos la memoria (Capa 2)
+  redis_cache:
+    image: redis:7-alpine
+    container_name: uneti_redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+# Declaración de volúmenes para que los datos no se borren si apagamos Docker
+volumes:
+  pgdata:
