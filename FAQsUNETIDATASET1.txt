@@ -1,0 +1,367 @@
+(Aspirantes y Nuevo Ingreso)
+
+1. ¿Cuándo empiezan las inscripciones para nuevo ingreso?
+
+Respuesta: 
+"¡Hola! Las inscripciones para el nuevo período académico están programadas desde el [Fecha de inicio] hasta el [Fecha de fin]. Todo el proceso se realizará a través de este portal en la sección 'Nuevo Ingreso'."
+
+
+
+2. ¿Cuáles son los requisitos y documentos para inscribirse?
+
+Respuesta:
+"Para formalizar tu inscripción debes traer en una carpeta marrón tamaño oficio:
+
+Planilla de asignación OPSU o Censo Interno.
+
+Cédula de identidad laminada y copia ampliada.
+
+Título de Bachiller (Original y copia fondo negro).
+
+Notas certificadas de 1er a 5to año.
+
+Partida de nacimiento original.
+
+2 fotos tipo carnet."
+
+
+
+3. ¿Cómo es el proceso si no salí asignado por la OPSU (Censo interno)?
+
+Respuesta: 
+"Si no fuiste asignado por la OPSU, ¡no te preocupes! Puedes participar en nuestro Censo Interno. El censo se abrirá el [Fecha de inicio del censo]. Solo debes registrarte en la sección 'Censo Universitario' de este portal y esperar la publicación de los listados."
+
+
+
+4. ¿Hay que hacer Trayecto Inicial / Curso Introductorio?
+
+Respuesta: 
+"Sí, el Programa de Iniciación Universitaria (PIU) o Trayecto Inicial es obligatorio para todos los nuevos ingresos de los PNF. Dura aproximadamente [Número] semanas y te preparará con las bases necesarias para arrancar tu carrera con buen pie."
+
+
+
+5. ¿Cuáles son las materias del Trayecto Inicial / Trayecto 1 de Informática?
+
+Respuesta: 
+"En el Trayecto Inicial verás materias nivelatorias como Matemática, Proyecto Nacional y Nueva Ciudadanía, e Introducción a la Universidad. Al pasar al Trayecto 1, comenzarás con Algorítmica y Programación, Arquitectura del Computador, Matemática, e Idiomas."
+
+
+
+6. ¿En qué horario son las clases para los nuevos ingresos?
+
+Respuesta: 
+"Manejamos diferentes turnos dependiendo de la disponibilidad de aulas: Mañana [0:00 AM - 0:00 PM], Tarde [0:00 PM - 0:00 PM] y Noche [0:00 PM - 0:00 PM]. Tu turno será asignado y podrás verlo en tu horario una vez culmines tu inscripción."
+
+
+
+7. ¿La universidad es totalmente gratuita o hay que pagar aranceles/colaboración?
+
+Respuesta: 
+"La educación en nuestra institución es pública y gratuita. Solo se solicita el pago de aranceles administrativos mínimos (timbres fiscales) para trámites de titulación o constancias, y la colaboración para el carnet estudiantil, que tiene un costo de [Monto/Referencia]."
+
+
+
+8. ¿Dan título de TSU a la mitad de la carrera?
+
+Respuesta: 
+"¡Así es! Al aprobar con éxito todas las unidades curriculares y el Proyecto Socio-Tecnológico del Trayecto 2, obtendrás el título de Técnico Superior Universitario (TSU). Al culminar el Trayecto 4, recibirás el título de Ingeniero."
+
+
+
+9. ¿Tienen modalidad online o es 100% presencial?
+
+Respuesta: 
+"Nuestras carreras de Ingeniería son de modalidad [Presencial / Semi-presencial]. Algunas materias teóricas pueden contar con apoyo a través de nuestra aula virtual, pero las prácticas, laboratorios y evaluaciones son presenciales."
+
+
+
+10. ¿Dónde queda la sede principal y cómo llego?
+
+Respuesta: 
+"Nuestra sede principal está ubicada en [Dirección exacta]. Puedes llegar tomando la ruta de transporte público [Ruta 1] que te deja en la puerta, o caminando a [Número] cuadras de la estación [Nombre de estación o punto de referencia]."
+
+
+
+11. ¿Cuándo empiezan las clases exactamente?
+
+Respuesta: 
+"El inicio de clases para los nuevos ingresos (Trayecto Inicial) está pautado para el [Día y fecha de inicio]. ¡Te recomendamos estar atento a la sección de Noticias del portal para cualquier actualización!"
+
+
+
+12. ¿Qué pasa si perdí mi contraseña del sistema de la universidad/OPSU?
+
+Respuesta: 
+"Si perdiste la clave de la OPSU, debes recuperarla directamente en su página web (opsu.gob.ve). Si perdiste la clave de nuestro portal universitario, haz clic en el botón 'Olvidé mi contraseña' en la pantalla de inicio de sesión y sigue los pasos."
+
+
+
+13. ¿Necesito saber programar antes de entrar a Ingeniería en Informática?
+
+Respuesta: 
+"¡Para nada! No necesitas conocimientos previos de programación. En el Trayecto 1 comenzamos desde cero con 'Algorítmica y Lógica de Programación'. Lo más importante es que tengas ganas de aprender y dedicación."
+
+
+
+14. ¿Cuáles son las opciones de comedor y transporte de la universidad?
+
+Respuesta: 
+"Actualmente la universidad [cuenta / no cuenta temporalmente] con servicio de comedor activo. En cuanto al transporte, tenemos rutas estudiantiles operativas hacia [Zona 1] y [Zona 2]. Los horarios de las rutas se publican semanalmente en Control de Estudios."
+
+
+
+15. ¿Puedo cambiarme de Telecomunicaciones a Informática después?
+
+Respuesta: 
+"Los cambios de carrera (cambios de PNF) son posibles, pero están sujetos a la disponibilidad de cupos y a tu rendimiento académico. Generalmente, debes cursar al menos un trayecto completo y hacer la solicitud formal en Control de Estudios durante las fechas establecidas."
+
+
+
+
+(Estudiantes Regulares)
+
+16. ¿Cuándo y cómo inscribo el nuevo trayecto/semestre?
+
+Respuesta:
+"¡Hola! Las inscripciones para estudiantes regulares se realizarán desde el [Fecha de inicio] hasta el [Fecha de fin]. Debes ingresar con tu usuario y contraseña, ir a la sección 'Inscripción Regular' y seleccionar las unidades curriculares que te corresponden según tu pensum."
+
+
+
+17. ¿Cómo descargo mi constancia de estudio? *Opción estática-Por los momentos*
+
+Respuesta:
+"Puedes descargar tu constancia de estudio digital directamente desde este portal. Ve al menú izquierdo, haz clic en 'Documentos' > 'Constancia de Estudio'. Se generará un PDF con un código QR de validación. Si necesitas que tenga sello húmedo, debes imprimirla y llevarla a la taquilla de Control de Estudios."
+
+
+18. ¿Puedo congelar el semestre o retirar una materia?
+
+Respuesta:
+"Sí, el retiro de materias o la congelación del trayecto está permitido únicamente durante las primeras [Número] semanas de clases (hasta el [Fecha límite]). Debes descargar la planilla de 'Modificación/Retiro' en el portal, llenarla y entregarla presencialmente en Control de Estudios."
+
+
+
+19. ¿Cuáles son los pasos para pedir mis notas certificadas?
+
+Respuesta:
+"Para solicitar notas certificadas debes: 1) Pagar el arancel correspondiente de [Monto/Referencia] en la cuenta de la universidad. 2) Llevar el comprobante de pago a la taquilla de Control de Estudios. El documento se te entregará firmado y sellado en un lapso de [Número] días hábiles."
+
+
+
+20. ¿Cuáles son los lineamientos para el Proyecto Socio-Tecnológico?
+
+Respuesta:
+"El Proyecto Socio-Tecnológico es el eje central de tu PNF. Los grupos deben ser de [Mínimo] a [Máximo] personas. La asignación de tutores y entrega de propuestas inicia en la semana [Número]. Puedes descargar el Manual de Proyecto actualizado en la sección 'Biblioteca Virtual' del portal."
+
+
+
+21. ¿Cuándo puedo empezar a hacer el Servicio Comunitario?
+
+Respuesta:
+"Según la ley y nuestro reglamento, puedes inscribir el Servicio Comunitario una vez hayas aprobado el [Porcentaje, ej. 50%] de las unidades de crédito de tu carrera, lo que equivale generalmente a estar cursando el [Trayecto X]. Mantente atento a las charlas de inducción que publicamos en Noticias."
+
+
+
+22. ¿Qué pasa si raspo (repruebo) una materia? ¿Hay reparación?
+
+Respuesta:
+"En el sistema de Programas Nacionales de Formación (PNF), la evaluación es continua. Si no alcanzas la nota mínima aprobatoria de [Nota mínima, ej. 12 o 16 puntos], tendrás derecho a un Plan de Recuperación al final del trayecto o semestre, según lo establezca el profesor y el reglamento de evaluación."
+
+
+
+23. ¿Dónde veo mi horario y el aula que me toca? *Opción estática-Por los momentos*
+
+Respuesta:
+"Tu horario detallado está disponible en tu perfil. Ingresa al sistema, ve a la sección 'Mi Horario' y allí verás los días, horas, materias y el número de aula o laboratorio asignado para este período."
+
+
+
+24. ¿Cómo hago para cambiarme de sección o turno?
+
+Respuesta:
+"Los cambios de sección o turno solo se procesan durante la semana de 'Inclusiones y Modificaciones' (del [Fecha] al [Fecha]). Solo se aprueban por motivos laborales (debes traer constancia de trabajo original) o de salud (informe médico), sujeto a la disponibilidad de cupos en la otra sección."
+
+
+
+25. ¿Puedo adelantar materias de otro trayecto?
+
+Respuesta:
+"El avance académico depende del sistema de prelaciones de tu PNF. No puedes cursar una materia avanzada si no has aprobado su pre-requisito (ejemplo: no puedes ver Programación II si no aprobaste Programación I). El sistema solo te permitirá inscribir las materias que estés habilitado para cursar."
+
+
+
+26. ¿Cuándo me tocan las pasantías profesionales?
+
+Respuesta:
+"Las pasantías profesionales o Prácticas Profesionales corresponden al [Trayecto 4 / Último semestre]. Para iniciarlas debes tener aprobado el Proyecto Socio-Tecnológico anterior y contar con la carta de postulación emitida por la Coordinación de Pasantías."
+
+
+
+27. ¿Qué requisitos necesito para el acto de grado?
+
+Respuesta:
+"Para graduarte de TSU o Ingeniero debes cumplir con: 1) Aprobación del 100% de las unidades curriculares, 2) Proyecto Socio-Tecnológico aprobado, 3) Servicio Comunitario culminado, 4) Pasantías aprobadas (si aplica), 5) Solvencias administrativas y de biblioteca, y 6) Pago de aranceles de grado."
+
+
+
+28. ¿Cómo saco la solvencia de biblioteca y administración?
+
+Respuesta:
+"Las solvencias son trámites presenciales. Debes dirigirte primero a la Biblioteca Central con tu carnet para verificar que no debes ningún libro, y luego a la Caja/Administración para confirmar que no tienes deudas de aranceles. Ambas oficinas te firmarán y sellarán el formato de solvencia."
+
+
+
+
+29. Inscribí una materia pero no me aparece en el sistema, ¿qué hago?
+
+Respuesta:
+"Si tienes un error en tu carga académica, debes reportarlo de inmediato a Control de Estudios. Trae contigo el comprobante (PDF o captura de pantalla) que generó el sistema el día que te inscribiste. Tienes chance de hacer este reclamo hasta el [Fecha límite]."
+
+
+
+30. ¿Cómo renuevo mi carnet estudiantil si lo perdí o me lo robaron?
+
+Respuesta:
+"Para reponer tu carnet estudiantil debes presentar en la taquilla de Control de Estudiosº: una constancia de estudio vigente, la denuncia policial de pérdida o robo (si aplica), y el comprobante de pago por el arancel de reposición de [Monto/Referencia]."
+
+
+
+(Soporte y Academia)
+
+31. ¿Cómo ingreso al Aula Virtual?
+
+Respuesta:
+"Para ingresar al Aula Virtual, ve a la sección 'Campus Virtual' en el menú principal. Tu usuario por defecto es tu número de cédula (sin puntos) y la contraseña inicial es [Contraseña por defecto, ej. tu misma cédula o 'Estudiante123']*. ¡Recuerda cambiar tu clave al ingresar por primera vez!"
+
+
+
+32. ¿Qué hago si el Aula Virtual me da error o no acepta mi clave?
+
+Respuesta:
+"Si tienes problemas con el Aula Virtual, primero intenta borrar el caché de tu navegador. Si el problema persiste, envía un correo a [Correo de Soporte Técnico, ej. soporte@universidad.edu.ve] indicando tu nombre completo, cédula, PNF que cursas y una captura de pantalla del error."
+
+
+
+33. ¿Con cuántas inasistencias repruebo una materia?
+
+Respuesta:
+"Según nuestro reglamento de evaluación, la asistencia es obligatoria. Pierdes la materia por inasistencia si faltas al [Porcentaje, ej. 25%] o más de las clases teóricas y prácticas impartidas durante el trayecto/semestre, sin justificación médica avalada."
+
+
+
+34. ¿Cuál es la escala de notas y con cuánto se aprueba?
+
+Respuesta:
+"La escala de calificación oficial es del 1 al 20. Para los Programas Nacionales de Formación (PNF), la nota mínima aprobatoria para cualquier unidad curricular o Proyecto Socio-Tecnológico es de [Nota mínima, ej. 12 puntos o 16 puntos dependiendo del reglamento interno]."
+
+
+
+35. Vengo de otra universidad, ¿cómo solicito equivalencias?
+
+Respuesta:
+"El proceso de equivalencias se solicita formalmente en Control de Estudios durante las fechas de [Meses de solicitud]. Debes traer: notas certificadas originales, pensum de estudios sellado y los programas sinópticos de las materias aprobadas en tu universidad de origen."
+
+
+
+36. Falté a una evaluación por enfermedad, ¿cómo la justifico?
+
+Respuesta:
+"Tienes un máximo de [Número, ej. 3 a 5] días hábiles después de la evaluación para presentar tu justificativo médico original (avalado por un ente público como el IVSS o CDI) ante la Coordinación de tu PNF o directamente con el profesor de la materia."
+
+
+
+37. El profesor no ha ido a dar clases en varias semanas, ¿qué hacemos?
+
+Respuesta:
+"Si un docente falta de manera recurrente sin justificar, el vocero o delegado de la sección debe notificarlo por escrito a la Coordinación del PNF de [Informática/Telecomunicaciones] para que se tomen las medidas académicas correspondientes y no pierdan el contenido."
+
+
+
+38. ¿Me puedo cambiar de sección a mitad de semestre porque empecé a trabajar?
+
+Respuesta:
+"Lamentablemente, los cambios de sección a mitad de período no están permitidos. Todo cambio debe realizarse exclusivamente durante la semana de 'Inclusiones y Modificaciones' al inicio del trayecto, presentando tu constancia de trabajo."
+
+
+
+39. ¿Cuándo son las exposiciones o defensas del Proyecto Socio-Tecnológico?
+
+Respuesta:
+"Las defensas de Proyecto Socio-Tecnológico se programan para las últimas [Número] semanas del trayecto. El cronograma exacto, con los jurados asignados y las aulas, será publicado por la Coordinación de Proyecto en la cartelera virtual a partir del [Fecha aproximada]."
+
+
+
+40. ¿Cómo calculo mi índice académico (promedio)?
+
+Respuesta:
+"Tu índice académico se calcula multiplicando la nota obtenida en cada materia por sus Unidades de Crédito (UC), sumando todos esos resultados y dividiéndolo entre el total de UC cursadas. ¡Pero no te preocupes! El sistema lo calcula automáticamente en la sección 'Récord Académico'."
+
+
+
+41. ¿Hay becas estudiantiles o ayudantías en la universidad?
+
+Respuesta:
+"Sí, contamos con el programa de [Nombre del programa, ej. Becas Ayudantía / Becas Trabajo]. Las postulaciones se abren una vez al año. Debes tener un índice académico mayor a [Nota mínima] y no tener materias reprobadas. Revisa la sección de Bienestar Estudiantil para los requisitos."
+
+
+
+42. ¿Dónde queda el Centro de Estudiantes o dónde ubico a los delegados?
+
+Respuesta:
+"La oficina de representación estudiantil (Centro de Estudiantes / Voceros) se encuentra ubicada en [Ubicación física, ej. Planta Baja del Edificio A, al lado del comedor]. También puedes contactarlos a través de sus redes sociales oficiales [Usuario de IG/Twitter]."
+
+
+
+43. Dejé de estudiar hace un año, ¿cómo hago el proceso de reingreso?
+
+Respuesta:
+"Para retomar tus estudios debes solicitar un 'Reingreso'. Este trámite se realiza [Número, ej. 1 o 2] meses antes de iniciar el nuevo trayecto. Debes pagar un arancel de 'Reingreso' para luego descargar la planilla de reingreso en el portal, llenarla y entregarla en Control de Estudios para que habiliten nuevamente tu usuario."
+
+
+
+44. El sistema se colgó mientras inscribía materias y ahora no me aparecen, ¿qué hago?
+
+Respuesta:
+"¡No entres en pánico! Esto ocurre a veces por el alto tráfico. Cierra sesión, espera unos 15 minutos y vuelve a ingresar. Si tus materias aún no aparecen y tu turno de inscripción ya pasó, acude inmediatamente a la taquilla de Control de Estudios con una captura de pantalla del error."
+
+
+
+45. ¿Cómo me comunico con un profesor si no tengo su correo o teléfono?
+
+Respuesta:
+"Por políticas de privacidad, no publicamos los teléfonos personales de los docentes. Sin embargo, puedes contactarlos a través de la mensajería interna del Aula Virtual, o dejarles una comunicación formal en el casillero de la Sala de Profesores ubicada en [Ubicación]."
+
+
+
+46. ¿Cómo solicito mi correo institucional?
+
+Respuesta:
+"¡El correo institucional es súper útil! Si eres estudiante regular, se genera automáticamente. Para activarlo o conocer cuál es, ve a la sección 'Mi Perfil' en el portal. Si tienes problemas para ingresar, debes dirigirte a la Dirección de Tecnología / Soporte Técnico en [Ubicación] con tu carnet."
+
+
+
+47. Cambié de número de teléfono o correo personal, ¿cómo lo actualizo?
+
+Respuesta:
+"Mantener tus datos al día es vital para enviarte avisos importantes. Puedes actualizar tu número de teléfono y correo electrónico alternativo ingresando al portal, en la esquina superior derecha haz clic en 'Ajustes de Cuenta' > 'Actualizar Datos'. Por seguridad, si necesitas cambiar tu nombre o corrección de cédula, debes ir presencialmente a Control de Estudios."
+
+
+
+48. ¿Cómo me inscribo en la biblioteca para pedir libros prestados?
+
+Respuesta:
+"Para usar el servicio de préstamos circulantes de la Biblioteca [Nombre de la Biblioteca], solo necesitas presentar tu constancia de inscripción vigente y tu cédula de identidad laminada o carnet estudiantil en el mostrador principal. Tienes derecho a llevarte hasta [Número] libros por un máximo de [Número] días."
+
+
+
+
+49. ¿Es obligatorio hacer deporte o cultura para graduarme?
+
+Respuesta:
+"¡Sí! En los Programas Nacionales de Formación (PNF), las actividades co-curriculares son obligatorias. Debes cursar y aprobar al menos [Número] créditos o semestres de Deporte, Arte o Cultura antes de llegar al Trayecto 3. Las inscripciones para los clubes y selecciones se abren la semana del [Fecha] en la Dirección de Deportes."
+
+
+
+50. El bot no entiende mi pregunta o mi caso es muy raro, ¿con quién hablo?
+
+Respuesta:
+"Soy un asistente virtual en entrenamiento y aún estoy aprendiendo. Si tu caso es muy específico (como un error de notas antiguo, un traslado de otra universidad o un problema de tesis), por favor dirígete presencialmente a la taquilla de Control de Estudios de lunes a viernes, de [Horario AM] a [Horario PM], o escribe a [Correo oficial de atención]."
