@@ -1,0 +1,17 @@
+fastapi[all]
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+redis
+python-dotenv
+pydantic[email]
+httpx
+spacy
+setuptools
+openai-whisper
+langchain
+sentence-transformers
+pyspellchecker
+numpy<2
+soundfile
+librosa

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNETI Assistant | Célula 04</title>
+    <link rel="stylesheet" href="/static/style.css?v=1.1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Iconos Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Botón Toggle para abrir el chat -->
+    <button id="chat-toggle" class="chat-toggle-btn">
+        <i data-lucide="message-square"></i>
+    </button>
+
+    <div class="app-container hidden" id="chat-window">
+        <header class="sis-header">
+            <div class="header-left">
+                <div class="bot-icon">
+                    <i data-lucide="bot"></i>
+                </div>
+                <div class="header-titles">
+                    <h2>Uneti-Pocket</h2>
+                    <div class="status-indicator">
+                        <div class="dot"></div>
+                        <span>ASISTENTE VIRTUAL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-controls">
+                <button id="minimize-btn" title="Minimizar"><i data-lucide="minus"></i></button>
+                <button id="close-btn" title="Cerrar"><i data-lucide="x"></i></button>
+            </div>
+        </header>
+
+        <main id="chat-box">
+            <div class="date-divider"><span>HOY</span></div>
+            
+            <div class="message bot-message">
+                <div class="bot-avatar">
+                   <i data-lucide="bot"></i>
+                </div>
+                <div class="message-content">
+                    <p>¡Hola! Soy <strong>Uneti-Pocket</strong>, tu asistente universitario. ¿En qué puedo ayudarte hoy?</p>
+                    <span class="message-time">10:30 AM</span>
+                </div>
+            </div>
+
+            <div class="quick-options">
+                <p>OPCIONES RÁPIDAS:</p>
+                <div class="options-grid">
+                    <button class="opt-btn" data-query="¿Cómo inscribirme?">¿Cómo inscribirme?</button>
+                    <button class="opt-btn" data-query="Ver mis notas">Ver mis notas</button>
+                    <button class="opt-btn" data-query="Solicitar constancia">Solicitar constancia</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="chat-footer">
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="Escribe tu consulta aquí..." autocomplete="off">
+                    <button id="send-btn">
+                        <i data-lucide="send"></i>
+                    </button>
+                </div>
+                <button id="mic-btn" class="mic-btn" title="Grabar consulta por voz">
+                    <i data-lucide="mic"></i>
+                </button>
+            </div>
+            <div class="footer-bottom">
+                <p>¿Necesitas ayuda?</p>
+                <button id="escalate-btn" class="escalate-btn">
+                    <i data-lucide="headset"></i>
+                    Hablar con un agente
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/script.js?v=1.2"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+#ByKP: Dependencias oficiales para Asistente Virtual SIS-UNETI 2026
+#Célula 04: Servicios e Innovación1. 
+
+#Framework Base y Validación (Capa API)
+fastapi>=0.110.0 
+uvicorn>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+#Persistencia y Base de Datos 
+psycopg2-binary>=2.9.9
+
+#Pruebas y Calidad (QA) 
+pytest>=8.1.0
+
+#Procesamiento de Lenguaje y LLMs (Fase 2)Nota: Se instalan desde ahora para preparar el entorno
+spacy>=3.8.0
+langchain>=0.1.13
+chromadb>=0.5.0
+
+#Seguridad y Autenticación 
+PyJWT>=2.8.0
+pwdlib[bcrypt]>=0.2.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
