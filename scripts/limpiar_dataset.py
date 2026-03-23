@@ -6,24 +6,44 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 INPUT_FILE = os.path.join(DATA_DIR, 'FAQs_Completo.json')
 OUTPUT_FILE = os.path.join(DATA_DIR, 'FAQs_Saneado.json')
 
-# Diccionario de Mapeo Semántico (Reglas de Negocio)
-# Si detecta la 'palave_clave' en la pregunta, asigna la 'subcategoria'
-MAPEO_SUBCATEGORIAS = {
-    "acceso": "Recuperación de Acceso",
-    "contraseña": "Recuperación de Acceso",
-    "password": "Recuperación de Acceso",
-    "usuario": "Recuperación de Acceso",
-    "evaluación": "Gestión Académica",
-    "nota": "Gestión Académica",
-    "examen": "Gestión Académica",
-    "inscripción": "Admisión",
-    "censo": "Admisión",
-    "requisitos": "Documentación",
-    "moodle": "Plataforma Virtual"
+# REGLAS MAESTRAS DE NEGOCIO (Subcategoría, Prioridad)
+REGLAS_MAESTRAS = {
+    # PRIORIDAD 10: Críticos / Bloqueantes
+    "acceso": ("Recuperación de Acceso", 10),
+    "contraseña": ("Recuperación de Acceso", 10),
+    "clave": ("Recuperación de Acceso", 10),
+    "entrar": ("Recuperación de Acceso", 10),
+    "password": ("Recuperación de Acceso", 10),
+    "login": ("Recuperación de Acceso", 10),
+    "error": ("Soporte Técnico", 10),
+    "caida": ("Soporte Técnico", 10),
+    "no carga": ("Soporte Técnico", 10),
+
+    # PRIORIDAD 8: Procesos de ingreso
+    "inscripción": ("Admisión", 8),
+    "censo": ("Admisión", 8),
+    "preinscripción": ("Admisión", 8),
+    "documentos": ("Documentación", 8),
+    "requisitos": ("Documentación", 8),
+    "titulo": ("Documentación", 8),
+
+    # PRIORIDAD 6: Gestión Académica
+    "nota": ("Gestión Académica", 6),
+    "examen": ("Gestión Académica", 6),
+    "evaluación": ("Gestión Académica", 6),
+    "profesor": ("Gestión Académica", 6),
+    "moodle": ("Plataforma Virtual", 6),
+    "aula": ("Plataforma Virtual", 6),
+
+    # PRIORIDAD 4: Informativos
+    "uneti": ("Información Institucional", 4),
+    "ubicación": ("Información Institucional", 4),
+    "horario": ("Información Institucional", 5),
+    "donde": ("Información Institucional", 4)
 }
 
-def sanear_subcategorias():
-    print(f"🔍 Iniciando saneamiento de {INPUT_FILE}...")
+def sanear_dataset_pro():
+    print(f"🚀 Iniciando procesamiento avanzado de {INPUT_FILE}...")
     
     if not os.path.exists(INPUT_FILE):
         print("❌ Error: No se encuentra el archivo fuente.")
@@ -32,27 +52,37 @@ def sanear_subcategorias():
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    modificados = 0
+    sub_modificadas = 0
+    prio_modificadas = 0
     
     for item in data:
-        # Solo actuamos si está pendiente
+        pregunta = item.get("pregunta_patron", "").lower()
+        
+        # 1. Resolver Subcategorías "Pendientes"
         if item.get("subcategoria") == "Pendiente de Definir":
-            pregunta = item.get("pregunta_patron", "").lower()
-            
-            # Buscamos coincidencia en nuestro diccionario de reglas
-            for clave, nueva_sub in MAPEO_SUBCATEGORIAS.items():
+            for clave, (nueva_sub, nueva_prio) in REGLAS_MAESTRAS.items():
                 if clave in pregunta:
                     item["subcategoria"] = nueva_sub
-                    modificados += 1
-                    break # Asigna la primera coincidencia y salta al siguiente item
+                    item["prioridad"] = nueva_prio # Asignamos prioridad acorde
+                    sub_modificadas += 1
+                    break
+        
+        # 2. Ajustar Prioridades Estáticas (si son "5" o por defecto)
+        # Esto cumple con el requerimiento de no dejar todo en prioridad plana
+        for clave, (sub, nueva_prio) in REGLAS_MAESTRAS.items():
+            if clave in pregunta:
+                if item.get("prioridad") != nueva_prio:
+                    item["prioridad"] = nueva_prio
+                    prio_modificadas += 1
+                break
 
-    # Guardamos el resultado en un nuevo archivo para no destruir el original (buena práctica de QA)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Saneamiento completado.")
-    print(f"📊 Registros reclasificados: {modificados}")
-    print(f"💾 Archivo guardado en: {OUTPUT_FILE}")
+    print(f"✅ Proceso completado exitosamente.")
+    print(f"📊 Subcategorías definidas: {sub_modificadas}")
+    print(f"📊 Prioridades ajustadas: {prio_modificadas}")
+    print(f"💾 Resultado guardado en: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    sanear_subcategorias()
+    sanear_dataset_pro()
