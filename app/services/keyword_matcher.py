@@ -1,30 +1,44 @@
-# ByKP: Motor de Búsqueda Rápida por Tags (Keyword Matcher)
-# app/services/keyword_matcher.py
+# ByKP: Motor de Búsqueda Rápida por Tags con NLP (Keyword Matcher)
+# Sincronizado con Issue #2 (QA)
 # Célula 04 - Asistente Virtual SIS-UNETI
 
 import os
 import re
+import unicodedata
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from dotenv import load_dotenv
 
 load_dotenv()
 
-def limpiar_texto(texto: str) -> set:
-    """Limpia el texto del usuario y devuelve un set de palabras clave."""
+def limpiar_texto_nlp(texto: str) -> set:
+    """
+    Aplica normalización UTF-8 e insensibilidad a tildes (NLP básico).
+    Devuelve un set de palabras clave limpias.
+    """
+    if not texto:
+        return set()
+    
+    # 1. Todo a minúsculas
     texto = texto.lower()
-    # Eliminar signos de puntuación básicos
-    texto = re.sub(r'[^\w\s]', '', texto)
+    
+    # 2. Eliminar tildes (Normalización NFD)
+    texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
+    
+    # 3. Dejar solo letras y números
+    texto = re.sub(r'[^a-z0-9\s]', '', texto)
+    
     palabras = set(texto.split())
-    # Ignorar conectores comunes (stopwords)
-    stopwords = {"el", "la", "los", "las", "un", "una", "y", "o", "de", "en", "para", "por", "a", "con", "que", "como", "del", "al", "mi"}
+    # Stopwords
+    stopwords = {"el", "la", "los", "las", "un", "una", "y", "o", "de", "en", "para", "por", "a", "con", "que", "como", "del", "al", "mi", "se"}
     return palabras - stopwords
 
 def buscar_respuesta_faq(mensaje_usuario: str):
     """
     Se conecta a PostgreSQL y busca la FAQ con más coincidencias de tags.
+    Detecta si la respuesta requiere IA Generativa.
     """
-    palabras_usuario = limpiar_texto(mensaje_usuario)
+    palabras_usuario = limpiar_texto_nlp(mensaje_usuario)
     if not palabras_usuario:
         return None
 
@@ -34,33 +48,40 @@ def buscar_respuesta_faq(mensaje_usuario: str):
 
     try:
         conn = psycopg2.connect(db_url)
-        # RealDictCursor devuelve los resultados como Diccionarios en lugar de Tuplas
         cursor = conn.cursor(cursor_factory=RealDictCursor)
         
-        # Consultamos todas las FAQs activas
-        cursor.execute("SELECT id, pregunta_patron, respuesta, palabras_clave FROM asistente_virtual.asistente_conocimiento WHERE activo = true")
+        # Consultamos FAQs activas
+        cursor.execute("SELECT id, pregunta_patron, respuesta, palabras_clave, prioridad FROM asistente_virtual.asistente_conocimiento WHERE activo = true")
         faqs = cursor.fetchall()
         
         for faq in faqs:
-            # Convertimos los tags de la BD a minúsculas
-            tags = set([tag.lower() for tag in faq['palabras_clave']])
+            # Limpiamos los tags de la BD para que coincidan con la limpieza del usuario
+            tags_limpios = set()
+            for tag in faq['palabras_clave']:
+                tags_limpios.update(limpiar_texto_nlp(tag))
             
-            # Intersección: ¿Cuántas palabras del usuario coinciden con los tags de esta pregunta?
-            coincidencias = len(palabras_usuario.intersection(tags))
+            # Intersección: ¿Cuántas palabras coinciden exactamente?
+            coincidencias = len(palabras_usuario.intersection(tags_limpios))
             
+            # Priorizamos por coincidencias y luego por nivel de prioridad
             if coincidencias > max_coincidencias:
                 max_coincidencias = coincidencias
                 mejor_faq = faq
                 
-        # Si encontramos al menos una coincidencia, devolvemos la respuesta
         if max_coincidencias > 0:
+            respuesta_oficial = mejor_faq["respuesta"]
+            
+            # DETECCIÓN DE DEUDA TÉCNICA (Issue #2):
+            requiere_ia = "[PENDIENTE GENERAR CON IA]" in respuesta_oficial
+            
             return {
                 "id": str(mejor_faq["id"]),
                 "pregunta_match": mejor_faq["pregunta_patron"],
-                "respuesta": mejor_faq["respuesta"],
+                "respuesta": respuesta_oficial,
                 "tags": mejor_faq["palabras_clave"],
-                # Cálculo de confianza simple (cada coincidencia suma 25% hasta un tope de 99%)
-                "confianza": min(0.99, max_coincidencias * 0.25) 
+                "prioridad": mejor_faq.get("prioridad", 5),
+                "confianza": min(0.99, max_coincidencias * 0.25),
+                "requiere_generacion_ia": requiere_ia
             }
         return None
 

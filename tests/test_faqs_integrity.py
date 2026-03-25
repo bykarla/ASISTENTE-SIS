@@ -1,4 +1,5 @@
 # ByKP / QA: Script de Auditoría de Base de Conocimiento (Capa 1)
+# Ruta local: tests/test_faqs_integrity.py
 # Desarrollado por: Ricardo Castro (QA) | Integrado por: Karla Pastrán (Backend)
 # Célula 04: Servicios e Innovación - SIS-UNETI 2026
 
@@ -16,13 +17,13 @@ try:
 except ImportError:
     pytest.fail("❌ No se encontró el archivo app/schemas.py en el proyecto.")
 
-# Ruta dinámica al archivo JSON
-JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'faqs.json')
+# Ruta dinámica al archivo JSON estandarizado por QA
+JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'FAQs_Saneado.json')
 
 def load_faqs():
     """Carga el archivo JSON generado para la Célula 04."""
     if not os.path.exists(JSON_PATH):
-        pytest.fail(f"❌ Archivo faqs.json no encontrado en la ruta: {JSON_PATH}")
+        pytest.fail(f"❌ Archivo FAQs_Saneado.json no encontrado en la ruta: {JSON_PATH}")
         
     try:
         with open(JSON_PATH, "r", encoding="utf-8") as f:
@@ -85,4 +86,4 @@ if __name__ == "__main__":
     # Ejecución manual rápida si no se usa pytest directamente
     data = load_faqs()
     print(f"✅ Registros cargados: {len(data)}")
-    print("✅ Sincronización con app/schemas.py: OK") 
+    print("✅ Sincronización con app/schemas.py: OK")
