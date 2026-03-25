@@ -17,11 +17,11 @@ from app.schemas import ConocimientoCreate
 # Cargar variables de entorno (ej. DATABASE_URL)
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
 
-# Ruta al archivo JSON entregado por QA/Data
-JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'faqs.json')
+# ByKP: Ruta actualizada al nuevo archivo validado por QA (Issue #2)
+JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'FAQs_Completo.json')
 
 def ingestar_datos():
-    print("🚀 [SIS-UNETI] Iniciando ingesta del Dataset #1 (FAQs)...")
+    print("🚀 [SIS-UNETI] Iniciando ingesta del Dataset Consolidado (FAQs_Completo)...")
     
     # 1. Verificar si existe el archivo JSON
     if not os.path.exists(JSON_PATH):
@@ -48,13 +48,17 @@ def ingestar_datos():
         cursor = conn.cursor()
         print("✅ Conexión a PostgreSQL establecida.")
         
+        # ByKP: TRUNCATE limpia la tabla antes de insertar para evitar duplicidad de FAQs viejas
+        print("🧹 Limpiando registros anteriores en la base de datos...")
+        cursor.execute("TRUNCATE TABLE asistente_virtual.asistente_conocimiento RESTART IDENTITY CASCADE;")
+        
         # 4. Procesamiento, Validación Pydantic e Inserción
         registros_insertados = 0
         registros_fallidos = 0
 
         for idx, item in enumerate(faqs_crudas):
             try:
-                # Aquí Pydantic valida los tipos de datos estrictamente
+                # ¡ Aquí Pydantic valida los tipos de datos estrictamente
                 faq_validada = ConocimientoCreate(**item)
                 
                 # Preparamos el query SQL respetando el schema "asistente_virtual" de Josua
