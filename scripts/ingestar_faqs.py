@@ -18,7 +18,7 @@ from app.schemas import ConocimientoCreate
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
 
 # ByKP: Ruta actualizada al nuevo archivo validado por QA (Issue #2)
-JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'FAQs_Completo.json')
+JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'FAQs_Saneado.json')
 
 def ingestar_datos():
     print("🚀 [SIS-UNETI] Iniciando ingesta del Dataset Consolidado (FAQs_Completo)...")
