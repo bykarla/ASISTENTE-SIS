@@ -9,6 +9,8 @@ pydantic-settings>=2.2.0
 
 #Persistencia y Base de Datos 
 psycopg2-binary>=2.9.9
+redis>=5.0.1
+httpx>=0.27.0
 
 #Pruebas y Calidad (QA) 
 pytest>=8.1.0

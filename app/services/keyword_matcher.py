@@ -20,8 +20,21 @@ def limpiar_texto(texto: str) -> set:
 def buscar_respuesta_faq(db_conn, mensaje_usuario: str):
     """
     Busca la FAQ con más coincidencias de tags en la conexión de BD proporcionada.
+    Incluye una Capa 0 de saludos básicos.
     """
+    # --- Capa 0: Saludos Directos ---
+    saludos = {"hola", "buenos dias", "buenas tardes", "buenas noches", "hey", "saludos"}
     palabras_usuario = limpiar_texto(mensaje_usuario)
+    
+    if any(s in palabras_usuario for s in saludos) and len(palabras_usuario) <= 2:
+        return {
+            "id": "greeting_0",
+            "pregunta_match": "saludo_usuario",
+            "respuesta": "¡Hola! Soy el Asistente Virtual de la UNETI. 😊 ¿En qué puedo ayudarte hoy con respecto a inscripciones, materias o procesos académicos?",
+            "tags": ["saludo"],
+            "confianza": 1.0
+        }
+
     if not palabras_usuario:
         return None
 
@@ -29,43 +42,35 @@ def buscar_respuesta_faq(db_conn, mensaje_usuario: str):
     max_coincidencias = 0
 
     try:
-        # RealDictCursor devuelve los resultados como Diccionarios en lugar de Tuplas
         cursor = db_conn.cursor(cursor_factory=RealDictCursor)
-        
-        # Consultamos todas las FAQs activas
         cursor.execute("SELECT id, pregunta_patron, respuesta, palabras_clave FROM asistente_virtual.asistente_conocimiento WHERE activo = true")
         faqs = cursor.fetchall()
         
         for faq in faqs:
-            # Procesamos las palabras clave de la BD: 
-            # 1. Pasamos a minúsculas
-            # 2. Quitamos acentos
-            # 3. Dividimos frases en palabras individuales para mayor probabilidad de match
             tags_originales = faq['palabras_clave']
             tags_procesados = set()
             for tag in tags_originales:
                 tag_limpio = quitar_acentos(tag.lower())
-                # Si el tag tiene varias palabras (ej: 'nuevo ingreso'), lo dividimos
                 for palabra in tag_limpio.split():
                     tags_procesados.add(palabra)
             
-            # Intersección: ¿Cuántas palabras del usuario coinciden con los tags procesados?
             coincidencias = len(palabras_usuario.intersection(tags_procesados))
             
             if coincidencias > max_coincidencias:
                 max_coincidencias = coincidencias
                 mejor_faq = faq
                 
-        # Si encontramos al menos una coincidencia, devolvemos la respuesta
-        if max_coincidencias > 0:
-            # Umbral mínimo de confianza: 1 palabra suele ser suficiente para FAQs muy específicas
+        # --- Mejora: Umbral de confianza dinámico ---
+        # Si el usuario escribió mucho, exigimos al menos 2 coincidencias para evitar la Capa 1 "ruidosa"
+        umbral_minimo = 2 if len(palabras_usuario) > 3 else 1
+
+        if max_coincidencias >= umbral_minimo:
             return {
                 "id": str(mejor_faq["id"]),
                 "pregunta_match": mejor_faq["pregunta_patron"],
                 "respuesta": mejor_faq["respuesta"],
                 "tags": mejor_faq["palabras_clave"],
-                # Cálculo de confianza simple (cada coincidencia suma 40% hasta un tope de 99%)
-                "confianza": min(0.99, max_coincidencias * 0.40) 
+                "confianza": min(0.99, max_coincidencias * 0.35) 
             }
         return None
 

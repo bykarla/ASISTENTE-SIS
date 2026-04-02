@@ -19,8 +19,12 @@ async def responder_con_ia(mensaje_usuario: str, conversation_id: str):
             "intencion": "nlu_error"
         }
 
-    # ByKP: Ejemplo de integración con OpenAI-compatible API
-    url = f"{settings.LLM_BASE_URL}/chat/completions"
+    # ByKP: Construcción de la URL (Aseguramos que no haya dobles slashes y sea la ruta correcta)
+    base_url = settings.LLM_BASE_URL.rstrip("/")
+    url = f"{base_url}/chat/completions"
+    
+    print(f"📡 Llamando a LLM: {url} | Modelo: {settings.LLM_MODEL}")
+    
     headers = {
         "Authorization": f"Bearer {settings.LLM_API_KEY}",
         "Content-Type": "application/json"
@@ -37,31 +41,35 @@ async def responder_con_ia(mensaje_usuario: str, conversation_id: str):
 
     try:
         async with httpx.AsyncClient() as client:
-            response = await client.post(url, json=payload, headers=headers, timeout=10.0)
+            # ByKP: Aumentamos el timeout a 60s ya que los LLMs pueden tardar en generar respuestas largas
+            response = await client.post(url, json=payload, headers=headers, timeout=60.0)
             data = response.json()
             
             if response.status_code == 200:
                 respuesta_texto = data["choices"][0]["message"]["content"]
                 return {
                     "respuesta": respuesta_texto,
-                    "confianza": 0.85, # Estimación fija por ahora
+                    "confianza": 0.85,
                     "fuente": f"llm_{settings.LLM_MODEL}",
                     "requiere_escalado": False,
                     "intencion": "ia_generative"
                 }
             else:
+                print(f"⚠️ OpenAI/DeepSeek API Error ({response.status_code}): {data}")
+                # --- MODO SIMULACIÓN PARA DESARROLLO ---
                 return {
-                    "respuesta": "Tuve un problema al procesar tu duda con mi motor de IA.",
-                    "confianza": 0.0,
-                    "fuente": "api_error",
+                    "respuesta": f"[Modo Simulación] Tu motor de IA reportó un error {response.status_code}. Verifica tu API Key y saldo.",
+                    "confianza": 0.5,
+                    "fuente": "llm_mock_fallback",
                     "requiere_escalado": True,
-                    "intencion": "error"
+                    "intencion": "api_error_fallback"
                 }
 
     except Exception as e:
-        print(f"❌ Error en LLM Service: {e}")
+        # ByKP: Usamos repr(e) para obtener el nombre técnico del error (ej: ConnectTimeout)
+        print(f"❌ Error crítico en LLM Service: {repr(e)}")
         return {
-            "respuesta": "Mi motor de IA está fuera de línea en este momento.",
+            "respuesta": "Mi motor de IA ha tardado demasiado o hay un problema de conexión.",
             "confianza": 0.0,
             "fuente": "exception",
             "requiere_escalado": True,

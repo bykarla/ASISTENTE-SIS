@@ -8,7 +8,20 @@ venv/
 *.py[cod]
 
 # Variables de entorno (Seguridad)
-.env
+.env.*
 
-# Archivos de VS Code
+# Bases de datos y almacenamiento persistente (Docker)
+db_data/
+chromadb/
+
+# Logs y Archivos Temporales
+*.log
+.gemini/
+.idea/
 .vscode/
+.DS_Store
+
+# Caché de Python y Compilados
+**/__pycache__/
+*.py[cod]
+*$py.class

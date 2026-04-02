@@ -13,9 +13,7 @@ from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.schemas import ConocimientoCreate
-
-# Cargar variables de entorno (ej. DATABASE_URL)
-load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
+from app.config import settings
 
 # Ruta al archivo JSON entregado por QA/Data
 JSON_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'faqs.json')
@@ -38,7 +36,7 @@ def ingestar_datos():
             return
 
     # 3. Conectar a PostgreSQL
-    db_url = os.getenv("DATABASE_URL")
+    db_url = settings.DATABASE_URL
     if not db_url:
         print("❌ Error: Variable de entorno DATABASE_URL no definida.")
         return

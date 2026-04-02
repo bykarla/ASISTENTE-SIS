@@ -18,6 +18,7 @@ services:
       - "5433:5432" # Se cambió a 5433 en el host para evitar conflictos
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./database/schema_asistente_virtual.sql:/docker-entrypoint-initdb.d/init.sql:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U admin_uneti -d asistente_virtual"]
@@ -47,6 +48,8 @@ services:
     build: .
     container_name: uneti_api
     env_file: .env
+    environment:
+      - IS_DOCKER=true
     ports:
       - "8000:8000"
     depends_on:
@@ -56,8 +59,10 @@ services:
         condition: service_healthy
     volumes:
       - .:/app
+      - chromadb:/app/chroma_db
     restart: unless-stopped
 
 # Declaración de volúmenes para que los datos no se borren si apagamos Docker
 volumes:
   pgdata:
+  chromadb:
